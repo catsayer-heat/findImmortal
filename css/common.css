@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{	
+	text-decoration:none;
+	color:black;
+}
+/* 清除浮动 */
+.clear:after{
+	display:block;
+	content:'';
+	clear:both;
+}
+li{
+	list-style-type: none;
+}
+i,em{
+	font-style: normal;
+}
+strong{
+	font-weight: normal;
+}
